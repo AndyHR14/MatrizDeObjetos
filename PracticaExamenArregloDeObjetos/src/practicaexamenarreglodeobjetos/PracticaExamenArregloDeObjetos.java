@@ -13,11 +13,13 @@ public class PracticaExamenArregloDeObjetos {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        RegistroEstudiantes estu = new RegistroEstudiantes();
-        estu.agregarinfo(estu.arrEstudiantes);
+    public static void main(String[] args) { 
+        RegistroEstudiantes estu = new RegistroEstudiantes(); //Creamos un nuevo estudiante en la clase de registro estudiante 
+        estu.agregarinfo(estu.arrEstudiantes); 
         estu.eliminarEstudiante();
         estu.mostrarinfo(estu.arrEstudiantes);
         estu.buscarinfo(estu.arrEstudiantes);
+        //se llaman los metodos al main 
+        
     }
 }
